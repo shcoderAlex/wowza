@@ -20,7 +20,7 @@ docker run -d --name wowza -p 1935:1935 -p 8088:8088 \
 shcoder/wowza
 ```
 
-----------------------------------------OR--------------------------------------------
+OR
 
 ```
 FROM shcoder/wowza
@@ -28,4 +28,6 @@ FROM shcoder/wowza
 MAINTAINER shcoder.alex@gmail.com
 
 ...etc
+
+CMD ["/sbin/entrypoint.sh"]
 ```

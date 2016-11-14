@@ -17,7 +17,7 @@ RUN chmod 755 /sbin/entrypoint.sh \
 	  /opt/wowza/start.sh && \
 	  /tmp/prepare.sh
 
-WORKDIR /usr/local/WowzaStreamingEngine
+WORKDIR /usr/local/WowzaStreamingEngine 
 
 EXPOSE 1935/tcp 8086/tcp 8087/tcp 8088/tcp
 
