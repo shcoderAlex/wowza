@@ -16,7 +16,7 @@ docker run -d --name wowza -p 1935:1935 -p 8088:8088 \
   -e WOWZA_USER_PASSWORD=wowza \
   -e WOWZA_PUBLISH_USER_NAME=wowza \
   -e WOWZA_PUBLISH_USER_PASSWORD=wowza \
-  -e WOWZA_LICENSE=ET2A4-ntGJH-vjEM3-YbQY4-d6T9V-BVvVF-7mZxjdWappYK \
+  -e WOWZA_LICENSE=XXXXX-XXXXX-XXXXX-XXXXX-XXXXX-XXXXX \
 shcoder/wowza
 ```
 

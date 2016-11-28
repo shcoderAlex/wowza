@@ -2,7 +2,7 @@ FROM shcoder/alpine:glibc.supervisor
 
 MAINTAINER shcoder.alex@gmail.com
 
-ENV WOWZA_VERSION=4.5.0 \
+ENV WOWZA_VERSION=4.6.0 \
     WOWZA_USER_NAME=admin \
     WOWZA_USER_PASSWORD=admin \
     WOWZA_PUBLISH_USER_NAME=admin \
